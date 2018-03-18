@@ -1,0 +1,43 @@
+.brand {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 68px;
+}
+
+nav.navbar {
+    background: #fff;
+	display: flex;
+    justify-content: space-between;
+    padding: 0 128px;
+    align-items: center;
+    height: 124px;
+    ul {
+        display: flex;
+        align-items: center;
+        transition: all .3s ease;
+        a {
+            transition: inherit;
+        }
+    }
+    ul.menu>li {
+        font-size: 16px;
+        padding: 0 .5rem;
+        a {
+            color: $gray;
+            &:hover,
+            &.active {
+                color: $purple;
+            }
+        }
+    }
+    ul.language {
+        max-width: 124px;
+        padding: 8px;
+        margin-left: 56px;
+        border: solid thin $gray-border;
+        border-radius: 30px;
+        li {
+            padding: 0 4px;
+        }
+    }   
+}
