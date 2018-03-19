@@ -1,0 +1,318 @@
+/* SCSS Document */
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+html {
+    font-size: 15px;
+    font-family: 'Georigia', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1,
+h4,
+p {
+    @extend .montserrat;
+}
+
+h2 {
+    font-family: 'Georigia', serif;
+    color:$black-text;
+    font-weight: 100;
+}
+
+p{
+    font-weight: 100;
+}
+
+.title {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4rem;
+    color:$black-text;
+    margin-right: 16px;
+}
+
+h3 {
+    color: $black-text;
+    display: inline;
+}
+
+header h2{
+    font-weight: 300;
+    color:$black-text;
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+}
+
+
+#header {
+    background: #fffbf5;
+    height: 60px;
+    color: #585858;
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    span {
+        color: $blue;
+    }
+    .number {
+        background-color: $blue;
+        background-size: 8rem 4rem;
+        padding: .25rem .5rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    li {
+        line-height: 1.5;
+    }
+    &:first-child {
+        justify-content: flex-start;
+        @extend .montserrat;
+        span {
+            font-weight: 500;
+        }
+    }
+    &:nth-child(2) {
+        justify-content: flex-end;
+        @extend .ubuntu;
+        li {
+            margin-left: 24px;
+        }
+        span {
+            font-weight: 300;
+        }
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    flex: 1 0 auto;
+    color: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    max-width: 15rem;
+}
+
+
+
+.home-contatti{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin: 0 22px;
+}
+
+
+
+
+span.detail-price {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+.s-call {
+    background: url("../images/hero.jpg") center/cover no-repeat;
+    padding:60px 0 ;
+    display: flex;
+    align-items: center;
+    .call {
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+    }
+    .call-detail {
+        border: thin solid #fff;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+        height: 1.5rem;
+        @media screen and (min-width:$tablet-landscape){
+            width: 100%;
+            }
+    }
+    p.call-detail-2 {
+        border: thin solid $blue;
+        background-color: $blue;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+        height: 1.5rem;
+        @media screen and (min-width:$tablet-landscape){
+            width: 100%;
+            }
+      
+    }
+}
+
+.number {
+    justify-content: center;
+    color: white;
+}
+
+
+
+.button-top {
+	position: absolute;
+	right: 64px;
+    img {
+        height: 3rem;
+        margin-top: -1.5rem;
+    }
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #000540;
+    color: #fff;
+    width: 100%;
+
+    .payments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .row{
+        justify-content: space-between;
+        padding:40px 0;
+
+        .follow{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+           
+
+            @media screen and (max-width:$mobile-landscape){
+                align-items: center;
+               margin-top: 40px;
+
+               @media screen and (max-width:$mobile){
+                align-items: flex-start;
+            }
+
+            }
+
+            .contact{
+                width:144px;
+            }
+
+        }
+
+    }
+}
+
+.site-map {
+    color: #fff;
+    line-height: 2;
+}
+
+img.cards {
+    height: 3rem;
+
+    @media screen and (max-width:$tablet){
+        height:2rem;
+        
+    }
+
+    margin-top: 1.5rem
+}
+
+img.social {
+    height: 3rem;
+    margin-top: .5rem;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 60px 0;
+}
+
+
+
+
+
+.brand {
+     margin-top: 1rem;
+    margin-left: 2rem;
+    height: 68px;
+}
+
+nav.navbar {
+    background: #fff;
+	display: flex;
+    justify-content: space-between;
+    padding: 0 128px;
+    align-items: center;
+    height: 124px;
+    ul {
+        display: flex;
+        align-items: center;
+        transition: all .3s ease;
+        a {
+            transition: inherit;
+        }
+    }
+    ul.menu>li {
+        font-size: 16px;
+        padding: 0 .5rem;
+        a {
+            color: $gray;
+            &:hover,
+            &.active {
+                color: $blue;
+            }
+        }
+    }
+    ul.language {
+        max-width: 124px;
+        padding: 8px;
+        margin-left: 56px;
+        border: solid thin $gray-border;
+        border-radius: 30px;
+        li {
+            padding: 0 4px;
+        }
+    }   
+}

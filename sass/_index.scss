@@ -1,0 +1,202 @@
+#welcome {
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 64px;
+    
+    p{
+        color:$gray;
+    }
+}
+
+#imgFemmena{
+    padding: 0;
+    @media screen and(min-width:$tablet-landscape){
+        padding-right:50px;
+        
+    }
+}
+
+#imgJesopazz{
+    padding:0;
+    @media screen and(min-width:$tablet-landscape){
+        padding-left:50px;
+        
+    }
+}
+
+#imgNapule{
+    padding:0;
+    @media screen and(min-width:$tablet-landscape){
+        padding-right:50px;
+        
+    }
+}
+
+
+
+.descrizione{
+    p{
+        color:$gray;
+    }
+}
+
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 940px) {
+        flex-direction: column;
+    }
+    figure {
+        flex-basis: calc(50% - 5px);
+        img {
+            width: 100%;
+            display: block;
+            @media screen and (max-width: 940px) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+.icons {
+    width: auto;
+    height: 2.3rem;
+    margin: 12px;
+}
+
+.call-to-action {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    width: 5rem;
+    border: thin solid $blue;
+    padding: 12px 24px;
+    color: $blue; 
+    background-color: white;
+
+    transition: all .5s;
+
+}
+
+.call-to-action:hover{
+    border: thin solid $blue;
+    background-color: $blue;
+    color:#fff;
+}
+
+.stanze{
+    justify-content:space-between;
+    margin:72px auto;
+
+}
+
+.service{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.descrizione{
+    @media screen and (min-width:$tablet-landscape){
+    margin-top: -10px; 
+    }
+
+    h3{
+        font-weight:100;
+    }
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+.orderText{
+    @media screen and(max-width:$tablet){
+        order:2;
+    }
+}
+.orderMedia{
+    @media screen and(max-width:$tablet){
+        order:1;
+    }
+}
+
+
+
+
+
+
+.row{
+
+    .col{
+       padding:0 .5rem
+     
+    }
+}
+
+
+
+.price {
+    position: absolute;
+    background-color: $red;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width: 120px;
+    padding: 40px 0;
+   left: 36%;
+    margin-top: 4rem;
+
+    
+    @media screen and (max-width:$tablet-landscape){
+
+        left:30%;
+
+        @media screen and (max-width:$tablet){
+            padding: 36px 0;
+            margin-top:5px;
+            
+            left:60%;
+        }
+    }
+}
+
+
+.price-2 {
+    position: absolute;
+    background-color: $red;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width: 120px;
+    padding: 40px 0;
+    right:40%;
+    margin-top: 4rem;
+
+  
+    @media screen and (max-width:$tablet-landscape){
+       
+        right:30%;
+
+        @media screen and (max-width:$tablet){
+            right: 0;
+            padding: 36px 0;
+            margin-top:5px;
+            
+            left:60%;
+        }
+    
+    }
+}
