@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="4680 2086 64 64">
   <defs>
     <style>
@@ -13,19 +12,3 @@
     <path id="Path_158" data-name="Path 158" class="cls-1" d="M58,49.287v-2.9H49.31v2.9h2.9V72.464h-2.9v2.877H60.9V72.464H58Z" transform="translate(345.799 1982.424)"/>
   </g>
 </svg>
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="4680 2086 64 64">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #b5182d;
-      }
-    </style>
-  </defs>
-  <g id="Group_79" data-name="Group 79" transform="translate(4311 80)">
-    <path id="Path_162" data-name="Path 162" class="cls-1" d="M32,2A30,30,0,1,1,2,32,30.066,30.066,0,0,1,32,2m0-2A32,32,0,1,0,64,32,32,32,0,0,0,32,0Z" transform="translate(369 2006)"/>
-    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="4.346" cy="4.346" r="4.346" transform="translate(395.109 2017.226)"/>
-    <path id="Path_158" data-name="Path 158" class="cls-1" d="M58,49.287v-2.9H49.31v2.9h2.9V72.464h-2.9v2.877H60.9V72.464H58Z" transform="translate(345.799 1982.424)"/>
-  </g>
-</svg>
->>>>>>> 70a71b71410d5c3672da9319971c1337acd14dd0
