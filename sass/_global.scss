@@ -66,6 +66,9 @@ header h2{
 
 
 #header {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
     background: #fffbf5;
     height: 60px;
     color: #585858;
@@ -73,6 +76,9 @@ header h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.8rem;
+    }
+
 }
 
 #header ul {
@@ -274,18 +280,28 @@ p.copyright {
 
 
 .brand {
-     margin-top: 1rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     height: 68px;
 }
 
+.nav {
+
+    justify-content: space-between;
+    margin: 30px 0 ;
+}
+
 nav.navbar {
+    display: none;
+
+    @media screen and (min-width:$tablet-landscape) {
+        
+    
     background: #fff;
 	display: flex;
     justify-content: space-between;
-    padding: 0 128px;
     align-items: center;
-    height: 124px;
+    
     ul {
         display: flex;
         align-items: center;
@@ -296,7 +312,7 @@ nav.navbar {
     }
     ul.menu>li {
         font-size: 16px;
-        padding: 0 .5rem;
+        padding: 0 16px;
         a {
             color: $gray;
             &:hover,
@@ -315,4 +331,150 @@ nav.navbar {
             padding: 0 4px;
         }
     }   
+}
+}
+
+
+/*-------SIDENAV-------*/
+
+
+ul.sideNav {
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+    transition: all .3s ease;
+    
+
+    >li {
+        
+        >a {
+            align-items: center;
+            color: $blue;
+            font-size: 1.2rem;
+            @extend .montserrat;
+            font-weight: 100;
+            text-align: center;
+            max-width: 100%;
+        }
+        display: flex;
+     
+        flex-wrap: wrap;
+        padding: .5rem 0;
+        margin: 16px 0;
+     
+        i {
+            font-weight: inherit;
+        }
+        ul {
+            max-height: 0;
+            overflow-y: hidden;
+            flex: 0 1 100%;
+            transition: max-height .3s ease-out;
+            animation: slide-out .3s ease-in;
+
+         
+
+            li {
+                padding: .5rem 0;
+                margin: 16px 0 0;
+            }
+            &.open {
+                animation: slide-in .3s ease-out;
+                max-height: 14rem;
+                overflow-y: visible;
+            }
+        }
+    }
+    transition: all .3s ease;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: calc(100% + 60px);
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    backface-visibility: hidden;
+    
+    flex-direction: column;
+    transform: translate(105%,-105%);
+    width: 300px;
+    
+    color: white;
+
+    &.open {
+        transform: translateX(0);
+    }
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 997;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+}
+
+#menu {
+    align-self: center;
+
+    @media screen and (min-width:$desktop){
+        display: none;
+    }
+}
+
+
+
+i.dropdown {
+    color: #6A6A6A;
+    margin-top:40px;
+    font-size: 30px;
+}
+
+#close{
+    font-size: 31px;
+    color: #6A6A6A;
+    margin: 40px 0 ;
+    
+}
+
+li.close{
+
+    display: flex;
+    justify-content: center;
+}
+
+#home{
+    margin-top:64px;
+}
+
+#sidebrand{
+    margin-top: 20px;
 }

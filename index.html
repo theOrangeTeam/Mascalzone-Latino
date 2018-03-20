@@ -4,11 +4,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Mascalzone latino - Luxury rooms</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="sass/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -31,41 +32,80 @@
 			<li class="number">+39 081 18276954</li>
 		</ul>
 	</section>
-	<nav class="navbar">
-		<a class="brand" href="index.html">
-			<img src="svg/logo_mascalzone_latino.svg" alt="logo mascalzone latino">
-		</a>
-		<ul class="menu">
-			<li>
-				<a href="index.html" class="active">Home</a>
-			</li>
-			<li>
-				<a href="chi_siamo.html">Chi siamo</a>
-			</li>
-			<li>
-				<a href="camere.html">Camere</a>
-			</li>
-			<li>
-				<a href="contatti.html">Contatti</a>
-			</li>
-			<li>
-				<ul class="language">
+	<div class="container">
+		<div class="row nav">
+			<a class="col s6 m8 l3" href="index.html">
+				<img src="svg/logo_mascalzone_latino.svg" alt="logo mascalzone latino">
+			</a>
+			<nav class="navbar">
+				<ul class="menu">
 					<li>
-						<a href="index.html">IT</a>
+						<a href="index.html" class="active">Home</a>
 					</li>
 					<li>
-						<a href="index_en.html">EN</a>
+						<a href="chi_siamo.html">Chi siamo</a>
 					</li>
 					<li>
-						<a href="index_fr.html">FR</a>
+						<a href="camere.html">Camere</a>
 					</li>
 					<li>
-						<a href="index_es.html">ES</a>
+						<a href="contatti.html">Contatti</a>
+					</li>
+					<li>
+						<ul class="language">
+							<li>
+								<a href="index.html">IT</a>
+							</li>
+							<li>
+								<a href="index_en.html">EN</a>
+							</li>
+							<li>
+								<a href="index_fr.html">FR</a>
+							</li>
+							<li>
+								<a href="index_es.html">ES</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
-			</li>
-		</ul>
-	</nav>
+			</nav>
+			<a class="col s1 m1 l1" href="#" id="menu">
+				<i class="material-icons ham">menu</i>
+			</a>
+		</div>
+	</div>
+
+
+
+	<ul class="sideNav">
+
+		<a class="col s6 m6 l3" href="index.html">
+			<img id="sidebrand" src="svg/logo_mascalzone_latino.svg" alt="logo mascalzone latino">
+		</a>
+
+		
+		<li>
+			<a id="home" href="index.html">Home</a>
+		</li>
+		<hr>
+		<li>
+			<a href="ChiSiamo.html">Chi Siamo</a>
+		</li>
+		<hr>
+		<li>
+			<a href="camere.html">Camere</a>
+		</li>
+		<hr>
+		<li>
+			<a href="contatti.html">Contatti</a>
+		</li>
+
+		<li class="close">
+
+			<i class="material-icons" id="close">close</i>
+		</li>
+	</ul>
+
 	<section class="slider">
 		<header>
 			<h1>IL B&B D’ECCELLENZA</h1>
@@ -96,9 +136,9 @@
 				<br>napoletano Pino Daniele che resterà per sempre non solo nei cuori del popolo partenopeo ma di tutti
 				<br> gli amanti della buona musica napletana.</p>
 		</section>
-		
-		
-		
+
+
+
 		<section class="row">
 			<figure class="col s6 m6 l6">
 				<img src="images/camere/ingresso.jpg" alt="img">
@@ -114,8 +154,7 @@
 
 		<section class="row stanze">
 			<figure id="imgFemmena" class="col s12 m12 ml5 l6 imgStanza">
-				<img src="images/camere/femmena.jpg"
-				 alt="img">
+				<img src="images/camere/femmena.jpg" alt="img">
 			</figure>
 			<article class="col s12 m12 ml7 l6 descrizione">
 				<span class="title">Femmena</span>
@@ -165,7 +204,7 @@
 				<hr class="hr-icons">
 				<a class="call-to-action" href="camera_pazzo.html">SCOPRI</a>
 			</article>
-			<figure id="imgJesopazz"class="col s12 m12 ml5 l6 imgStanza orderMedia">
+			<figure id="imgJesopazz" class="col s12 m12 ml5 l6 imgStanza orderMedia">
 				<img src="images/camere/jesopazz.jpg" alt="img">
 			</figure>
 		</section>
@@ -175,7 +214,7 @@
 			<figure id="imgNapule" class="col s12 m12 ml5 l6 imgStanza">
 				<img src="images/camere/napule.jpg" alt="img">
 			</figure>
-		
+
 			<article class="col s12 m12 ml7 l6 descrizione">
 				<span class="title">Napule è</span>
 				<h3>(camera doppia uso quadrupla)</h3>
@@ -256,17 +295,17 @@
 				<div class="col s12  m4 l3 follow">
 					<p class="contacts-2">Seguici su:</p>
 					<div>
-					<a href="">
-						<img class="social" src="svg/SVG/facebook.svg" alt="">
-					</a>
-					<a href="">
-						<img class="social" src="svg/SVG/instagram.svg" alt="">
-					</a>
-					<a href="">
-						<img class="social" src="svg/SVG/what'sapp.svg" alt="">
-					</a>
+						<a href="">
+							<img class="social" src="svg/SVG/facebook.svg" alt="">
+						</a>
+						<a href="">
+							<img class="social" src="svg/SVG/instagram.svg" alt="">
+						</a>
+						<a href="">
+							<img class="social" src="svg/SVG/what'sapp.svg" alt="">
+						</a>
+					</div>
 				</div>
-			</div>
 				<div class="col s12 l12">
 					<p class="copyright">© mascalzonelatinoluxuryrooms.com - 2018 -</p>
 				</div>
