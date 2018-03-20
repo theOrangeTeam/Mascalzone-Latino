@@ -240,7 +240,7 @@
 /* SCSS Document */
 .montserrat, h1,
 h4,
-p, #header ul:first-child, ul.sideNav > li > a {
+p, #header ul:first-child, ul.sideNav > li > a, .chi_siamo_space p {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -708,250 +708,54 @@ li.close {
   margin-top: 20px;
 }
 
-.slider {
-  position: relative;
-  width: 100%;
-  transition: all .3s ease;
+/*Chi Siamo Styles*/
+.img-history {
+  max-width: 100%;
+  margin-top: 24px;
 }
 
-.slider header {
-  position: absolute;
-  padding: 0 10%;
-  top: 236px;
-  color: #fff;
+.histoy {
+  margin: -2.6rem 8rem 2.6rem 20rem;
 }
 
-.slider header h1, .slider header p {
+.name {
+  margin-left: 2.8rem;
+  margin-top: 2.6rem;
+}
+
+.family {
+  margin: -8rem 8rem 2.6rem 20rem;
+}
+
+p.end-history {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 6rem;
   text-align: center;
+  color: rgba(0, 0, 0, 0.87);
 }
 
-.slider header p {
-  font-size: 24px;
-  color: white;
+p.end-history-2 {
+  text-align: center;
+  margin-top: -6rem;
+  margin-bottom: 4rem;
 }
 
-.slider figure {
-  height: 500px;
-  overflow: hidden;
-  display: flex;
+.chi_siamo_space {
+  justify-content: space-between;
+  margin: 60px auto;
   align-items: center;
 }
 
-.slider img {
-  max-width: 100%;
-}
-
-.slider ol {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  z-index: 2;
-  list-style: circle;
-}
-
-.slider ol li {
-  cursor: pointer;
-  transition: all .3s ease;
-  color: #fff;
-  font-size: 56px;
-  padding: 0 .5rem;
-}
-
-.slider ol li:hover, .slider ol li:focus, .slider ol li.active {
-  color: #09106a;
-}
-
-.slider ol li:before {
-  content: "\2022";
-}
-
-#welcome {
-  text-align: center;
-  margin-top: 56px;
-  margin-bottom: 64px;
-}
-
-#welcome p {
+.chi_siamo_space p {
+  font-size: 1rem;
   color: #808080;
-}
-
-#imgFemmena {
-  padding: 0;
-}
-
-@media screen and (min-width: 1024px) {
-  #imgFemmena {
-    padding-right: 50px;
-  }
-}
-
-#imgJesopazz {
-  padding: 0;
-}
-
-@media screen and (min-width: 1024px) {
-  #imgJesopazz {
-    padding-left: 50px;
-  }
-}
-
-#imgNapule {
-  padding: 0;
-}
-
-@media screen and (min-width: 1024px) {
-  #imgNapule {
-    padding-right: 50px;
-  }
-}
-
-.descrizione p {
-  color: #808080;
-}
-
-.gallery {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 940px) {
-  .gallery {
-    flex-direction: column;
-  }
-}
-
-.gallery figure {
-  flex-basis: calc(50% - 5px);
-}
-
-.gallery figure img {
-  width: 100%;
-  display: block;
-}
-
-@media screen and (max-width: 940px) {
-  .gallery figure img {
-    margin-bottom: 10px;
-  }
-}
-
-.icons {
-  width: auto;
-  height: 2.3rem;
-  margin: 12px;
-}
-
-.call-to-action {
-  font-family: 'Montserrat', sans-serif;
-  display: block;
-  text-align: center;
-  width: 5rem;
-  border: thin solid #000540;
-  padding: 12px 24px;
-  color: #000540;
-  background-color: white;
-  transition: all .5s;
-}
-
-.call-to-action:hover {
-  border: thin solid #000540;
-  background-color: #000540;
-  color: #fff;
-}
-
-.stanze {
-  justify-content: space-between;
-  margin: 72px auto;
-}
-
-.service {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-@media screen and (min-width: 1024px) {
-  .descrizione {
-    margin-top: -10px;
-  }
-}
-
-.descrizione h3 {
-  font-weight: 100;
 }
 
 img {
   max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .orderText {
-    order: 2;
-  }
+h2 {
+  color: #313232;
 }
-
-@media screen and (max-width: 768px) {
-  .orderMedia {
-    order: 1;
-  }
-}
-
-.row .col {
-  padding: 0 .5rem;
-}
-
-.price {
-  position: absolute;
-  background-color: #B5182D;
-  color: #fff;
-  text-align: center;
-  height: 100px;
-  width: 120px;
-  padding: 40px 0;
-  left: 36%;
-  margin-top: 4rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .price {
-    left: 30%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 768px) {
-  .price {
-    padding: 36px 0;
-    margin-top: 5px;
-    left: 60%;
-  }
-}
-
-.price-2 {
-  position: absolute;
-  background-color: #B5182D;
-  color: #fff;
-  text-align: center;
-  height: 100px;
-  width: 120px;
-  padding: 40px 0;
-  right: 40%;
-  margin-top: 4rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .price-2 {
-    right: 30%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 768px) {
-  .price-2 {
-    right: 0;
-    padding: 36px 0;
-    margin-top: 5px;
-    left: 60%;
-  }
-}
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=chiSiamo.css.map */

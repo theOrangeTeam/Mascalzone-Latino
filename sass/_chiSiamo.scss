@@ -30,3 +30,26 @@ p.end-history-2 {
     margin-top: -6rem;
     margin-bottom: 4rem;
 }
+
+
+.chi_siamo_space{
+        justify-content: space-between;
+        margin: 60px auto;
+        align-items: center;
+
+        p {
+            font-size:1rem;
+            @extend .montserrat;
+            color:$gray;
+        }
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+ 
+
+    h2{
+        color:$black-text;
+    }
