@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .slider {
     position: relative;
     width: 100%;
@@ -48,4 +49,55 @@
             }
         }
     }
+=======
+.slider {
+    position: relative;
+    width: 100%;
+    transition: all .3s ease;
+    header {
+        position: absolute;
+        padding: 0 10%;
+        top: 236px;
+        color: #fff;
+        h1, p {
+            text-align: center;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+    figure {
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    img {
+        max-width: 100%;
+    }
+    ol {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        z-index: 2;
+        list-style: circle;
+        li {
+            cursor: pointer;
+            transition: all .3s ease;
+            color: #fff;
+            font-size: 56px;
+            padding: 0 .5rem;
+            &:hover,
+            &:focus,
+            &.active {
+                color: #09106a;
+            }
+            &:before {
+                content: "\2022";
+            }
+        }
+    }
+>>>>>>> 70a71b71410d5c3672da9319971c1337acd14dd0
 }

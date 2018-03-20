@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="1224.5 2961.5 52 50">
   <defs>
     <style>
@@ -17,3 +18,24 @@
     <path id="Path_168" data-name="Path 168" class="cls-2" d="M3388.926,1367.4l9.706-5.81,9.185,5.81" transform="translate(-2143.16 1619.796)"/>
   </g>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1224.5 2961.5 52 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffbf5;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #09106a;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_201" data-name="Group 201" transform="translate(-5)">
+    <rect id="Rectangle_44" data-name="Rectangle 44" class="cls-1" width="50" height="52" transform="translate(1281.5 2961.5) rotate(90)"/>
+    <path id="Path_168" data-name="Path 168" class="cls-2" d="M3388.926,1367.4l9.706-5.81,9.185,5.81" transform="translate(-2143.16 1619.796)"/>
+  </g>
+</svg>
+>>>>>>> 70a71b71410d5c3672da9319971c1337acd14dd0

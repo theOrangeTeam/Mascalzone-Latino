@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -31,3 +32,6 @@
 	</g>
 </g>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.85 35.16"><defs><style>.cls-1{fill:#888989;}</style></defs><title>drink</title><g id="Livello_2" data-name="Livello 2"><g id="Livello_1-2" data-name="Livello 1"><g id="Group_41" data-name="Group 41"><path id="Path_66" data-name="Path 66" class="cls-1" d="M35.82,30.33V15.09a4.31,4.31,0,1,0-6.59-3.65.49.49,0,0,0,0,.12h-8l.11-.66H17.59l2.69-6.37L25.43,3V0L18.14,2.41,14.62,10.9H.05L3.63,34.07H0v1.09H35.89V34.07H34.07A4.88,4.88,0,0,0,35.82,30.33ZM30.31,11.44a3.23,3.23,0,1,1,5.51,2.28V11.56h-5.5S30.31,11.48,30.31,11.44ZM17.2,29.36H4l-.18-1.09H17.38Zm.36-2.17H3.67l-.5-3.26H18.1Zm.72-4.35H3l-.17-1.08H18.46Zm.36-2.17h-16l-.5-3.25h17ZM1.78,15h17.8l-.22,1.34H2ZM19,3.29,24.35,1.5v.66L19.48,3.63,16.41,10.9H15.8ZM20.09,12l-.32,1.92H1.62L1.32,12ZM4.73,34.07l-.56-3.63H17l-.6,3.63ZM19.4,22.76v7.57a4.86,4.86,0,0,0,1.73,3.74H17.52Zm4.21,11.31a3.78,3.78,0,0,1-3.13-3.74V16.26h0l.6-3.62H34.73V30.33a3.81,3.81,0,0,1-3,3.72v0Z"/><path id="Path_67" data-name="Path 67" class="cls-1" d="M34.08,30.33V22.85H21.13v7.48a3.15,3.15,0,0,0,3.15,3.15h6.66A3.15,3.15,0,0,0,34.08,30.33Zm-1.08,0a2.07,2.07,0,0,1-2.06,2.07H24.28a2.07,2.07,0,0,1-2.06-2.07v-6.4H33Z"/><rect id="Rectangle_36" data-name="Rectangle 36" class="cls-1" x="33" y="19.52" width="1.09" height="1.9"/><rect id="Rectangle_37" data-name="Rectangle 37" class="cls-1" x="33" y="14" width="1.09" height="4.43"/><path id="Path_68" data-name="Path 68" class="cls-1" d="M25.79,31.29a1.6,1.6,0,1,0-1.6-1.6h0A1.6,1.6,0,0,0,25.79,31.29Zm0-2.11a.52.52,0,1,1-.52.51h0a.52.52,0,0,1,.52-.51Z"/><path id="Path_69" data-name="Path 69" class="cls-1" d="M28.67,28.21a1.6,1.6,0,1,0-1.6-1.6h0A1.6,1.6,0,0,0,28.67,28.21Zm0-2.12a.52.52,0,1,1-.52.52h0a.52.52,0,0,1,.52-.52Z"/></g></g></g></svg>
+>>>>>>> 70a71b71410d5c3672da9319971c1337acd14dd0
