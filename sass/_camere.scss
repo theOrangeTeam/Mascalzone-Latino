@@ -1,0 +1,63 @@
+.detail-room {
+    text-align: center;
+}
+
+article p {
+    color: $gray;
+    font-weight: 100;
+}
+
+figure p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $gray;
+    font-weight: 400;
+}
+
+header {
+  
+    h2 {
+        font-weight: 300;
+        color: $black-text;
+        font-size: 1.8rem;
+        margin-bottom: -8px;
+    }
+}
+
+
+
+
+
+figure img {
+    max-width: 100%;
+}
+
+#padding {
+    padding-top: 30px;
+}
+
+section figure {
+    background-color: $yellow;
+}
+
+hr {
+    max-width: 85%;
+}
+
+.testo {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -20px;
+}
+
+p.end-history {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: rgba(0, 0, 0, .87);
+}
+
+p.end-history-2 {
+    text-align: center;
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+}
