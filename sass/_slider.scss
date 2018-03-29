@@ -1,4 +1,10 @@
 .slider {
+
+    display: none;
+
+    @media screen and (min-width:$mobile) {
+
+    display: block;
     position: relative;
     width: 100%;
     transition: all .3s ease;
@@ -36,7 +42,7 @@
             cursor: pointer;
             transition: all .3s ease;
             color: #fff;
-            font-size: 56px;
+            font-size: 45px;
             padding: 0 .5rem;
             &:hover,
             &:focus,
@@ -45,7 +51,20 @@
             }
             &:before {
                 content: "\2022";
+        
             }
         }
+    }
+}
+}
+
+
+.slide-mobile{
+    width: 100%;
+    display: none;
+
+    @media screen and (max-width:$mobile) {
+        display: block;
+        
     }
 }

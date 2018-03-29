@@ -578,7 +578,7 @@ ul.sideNav {
   will-change: transform;
   backface-visibility: hidden;
   flex-direction: column;
-  transform: translate(105%, -105%);
+  transform: translateX(105%);
   width: 80%;
   color: white;
 }
@@ -598,7 +598,6 @@ ul.sideNav > li {
 
 ul.sideNav > li > a {
   align-items: center;
-  color: #000540;
   font-size: 1.2rem;
   font-weight: 100;
   text-align: center;
@@ -626,6 +625,10 @@ ul.sideNav > li ul.open {
   animation: slide-in .3s ease-out;
   max-height: 14rem;
   overflow-y: visible;
+}
+
+ul.sideNav a {
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 736px) {
@@ -709,62 +712,71 @@ li.close {
 }
 
 .slider {
-  position: relative;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .slider {
+    display: block;
+    position: relative;
+    width: 100%;
+    transition: all .3s ease;
+  }
+  .slider header {
+    position: absolute;
+    padding: 0 10%;
+    top: 236px;
+    color: #fff;
+  }
+  .slider header h1, .slider header p {
+    text-align: center;
+  }
+  .slider header p {
+    font-size: 24px;
+    color: white;
+  }
+  .slider figure {
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .slider img {
+    max-width: 100%;
+  }
+  .slider ol {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    list-style: circle;
+  }
+  .slider ol li {
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 45px;
+    padding: 0 .5rem;
+  }
+  .slider ol li:hover, .slider ol li:focus, .slider ol li.active {
+    color: #09106a;
+  }
+  .slider ol li:before {
+    content: "\2022";
+  }
+}
+
+.slide-mobile {
   width: 100%;
-  transition: all .3s ease;
+  display: none;
 }
 
-.slider header {
-  position: absolute;
-  padding: 0 10%;
-  top: 236px;
-  color: #fff;
-}
-
-.slider header h1, .slider header p {
-  text-align: center;
-}
-
-.slider header p {
-  font-size: 24px;
-  color: white;
-}
-
-.slider figure {
-  height: 500px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
-.slider img {
-  max-width: 100%;
-}
-
-.slider ol {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  z-index: 2;
-  list-style: circle;
-}
-
-.slider ol li {
-  cursor: pointer;
-  transition: all .3s ease;
-  color: #fff;
-  font-size: 56px;
-  padding: 0 .5rem;
-}
-
-.slider ol li:hover, .slider ol li:focus, .slider ol li.active {
-  color: #09106a;
-}
-
-.slider ol li:before {
-  content: "\2022";
+@media screen and (max-width: 600px) {
+  .slide-mobile {
+    display: block;
+  }
 }
 
 /*Detail Room Styles*/
@@ -851,62 +863,71 @@ img.service-card {
 }
 
 .slider {
-  position: relative;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .slider {
+    display: block;
+    position: relative;
+    width: 100%;
+    transition: all .3s ease;
+  }
+  .slider header {
+    position: absolute;
+    padding: 0 10%;
+    top: 236px;
+    color: #fff;
+  }
+  .slider header h1, .slider header p {
+    text-align: center;
+  }
+  .slider header p {
+    font-size: 24px;
+    color: white;
+  }
+  .slider figure {
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .slider img {
+    max-width: 100%;
+  }
+  .slider ol {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    list-style: circle;
+  }
+  .slider ol li {
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 45px;
+    padding: 0 .5rem;
+  }
+  .slider ol li:hover, .slider ol li:focus, .slider ol li.active {
+    color: #09106a;
+  }
+  .slider ol li:before {
+    content: "\2022";
+  }
+}
+
+.slide-mobile {
   width: 100%;
-  transition: all .3s ease;
+  display: none;
 }
 
-.slider header {
-  position: absolute;
-  padding: 0 10%;
-  top: 236px;
-  color: #fff;
-}
-
-.slider header h1, .slider header p {
-  text-align: center;
-}
-
-.slider header p {
-  font-size: 24px;
-  color: white;
-}
-
-.slider figure {
-  height: 500px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
-.slider img {
-  max-width: 100%;
-}
-
-.slider ol {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  z-index: 2;
-  list-style: circle;
-}
-
-.slider ol li {
-  cursor: pointer;
-  transition: all .3s ease;
-  color: #fff;
-  font-size: 56px;
-  padding: 0 .5rem;
-}
-
-.slider ol li:hover, .slider ol li:focus, .slider ol li.active {
-  color: #09106a;
-}
-
-.slider ol li:before {
-  content: "\2022";
+@media screen and (max-width: 600px) {
+  .slide-mobile {
+    display: block;
+  }
 }
 
 .detail-room {

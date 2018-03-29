@@ -343,13 +343,14 @@ ul.sideNav {
         display: none;
     }
     transition: all .3s ease;
+
     
 
     >li {
         
         >a {
             align-items: center;
-            color: $blue;
+            
             font-size: 1.2rem;
             @extend .montserrat;
             font-weight: 100;
@@ -400,10 +401,14 @@ ul.sideNav {
     backface-visibility: hidden;
     
     flex-direction: column;
-    transform: translate(105%,-105%);
+    transform: translateX(105%);
     width: 80%;
     
     color: white;
+
+    a{
+        margin: 0 auto;
+    }
 
     @media screen and (min-width:$mobile-landscape){
         width:35%;
@@ -485,3 +490,5 @@ li.close{
 #sidebrand{
     margin-top: 20px;
 }
+
+
