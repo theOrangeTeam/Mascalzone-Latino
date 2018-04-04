@@ -860,16 +860,16 @@ li.close {
   display: block;
   text-align: center;
   width: 5rem;
-  border: thin solid #000540;
+  border: 3px solid #A7987C;
   padding: 12px 24px;
-  color: #000540;
+  color: #A7987C;
   background-color: white;
   transition: all .5s;
 }
 
 .call-to-action:hover {
-  border: thin solid #000540;
-  background-color: #000540;
+  border: 3px solid #A7987C;
+  background-color: #A7987C;
   color: #fff;
 }
 

@@ -72,9 +72,9 @@
     display: block;
     text-align: center;
     width: 5rem;
-    border: thin solid $blue;
+    border: 3px solid $cta-yellow;
     padding: 12px 24px;
-    color: $blue; 
+    color: $cta-yellow; 
     background-color: white;
 
     transition: all .5s;
@@ -82,8 +82,8 @@
 }
 
 .call-to-action:hover{
-    border: thin solid $blue;
-    background-color: $blue;
+    border: 3px solid $cta-yellow;
+    background-color: $cta-yellow;
     color:#fff;
 }
 

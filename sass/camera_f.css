@@ -855,11 +855,18 @@ img.service-card {
   display: block;
   text-align: center;
   max-width: 100%;
-  border: thin solid #000540;
-  background-color: #000540;
   padding: 12px 24px;
-  color: #fff;
+  border: 3px solid #A7987C;
+  color: #A7987C;
+  background-color: white;
+  transition: all .5s;
   margin: 2rem auto;
+}
+
+.call-to-action-3:hover {
+  border: 3px solid #A7987C;
+  background-color: #A7987C;
+  color: #fff;
 }
 
 .slider {
