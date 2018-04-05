@@ -413,8 +413,8 @@ span.detail-price {
 }
 
 .s-call p.call-detail-2 {
-  border: thin solid #000540;
-  background-color: #000540;
+  border: thin solid #A7987C;
+  background-color: #A7987C;
   color: #fff;
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
@@ -502,6 +502,10 @@ img.cards {
 img.social {
   height: 3rem;
   margin-top: .5rem;
+}
+
+a svg:hover .st1 {
+  fill: #A7987C;
 }
 
 p.copyright {
@@ -789,28 +793,16 @@ li.close {
   color: #808080;
 }
 
-#imgFemmena {
-  padding: 0;
-}
-
 @media screen and (min-width: 1024px) {
   #imgFemmena {
     padding-right: 50px;
   }
 }
 
-#imgJesopazz {
-  padding: 0;
-}
-
 @media screen and (min-width: 1024px) {
   #imgJesopazz {
     padding-left: 50px;
   }
-}
-
-#imgNapule {
-  padding: 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -859,12 +851,20 @@ li.close {
   font-family: 'Montserrat', sans-serif;
   display: block;
   text-align: center;
-  width: 5rem;
+  max-width: 5rem;
   border: 3px solid #A7987C;
   padding: 12px 24px;
   color: #A7987C;
   background-color: white;
+  margin-top: 20px;
   transition: all .5s;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .call-to-action {
+    max-width: 100%;
+  }
 }
 
 .call-to-action:hover {

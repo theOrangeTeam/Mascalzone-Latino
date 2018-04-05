@@ -413,8 +413,8 @@ span.detail-price {
 }
 
 .s-call p.call-detail-2 {
-  border: thin solid #000540;
-  background-color: #000540;
+  border: thin solid #A7987C;
+  background-color: #A7987C;
   color: #fff;
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
@@ -502,6 +502,10 @@ img.cards {
 img.social {
   height: 3rem;
   margin-top: .5rem;
+}
+
+a svg:hover .st1 {
+  fill: #A7987C;
 }
 
 p.copyright {

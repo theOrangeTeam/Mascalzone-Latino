@@ -68,6 +68,13 @@ window.onload = function () {
      }
  
 
-
-
 };
+
+
+$(".expand-link")
+  .on("mouseenter", function() {
+    $(this).find("use").attr("xlink:href", "#icon-contract");
+  })
+  .on("mouseleave", function() {
+    $(this).find("use").attr("xlink:href", "#icon-expand");
+  });

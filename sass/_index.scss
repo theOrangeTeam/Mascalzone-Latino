@@ -9,27 +9,22 @@
 }
 
 #imgFemmena{
-    padding: 0;
     @media screen and(min-width:$tablet-landscape){
         padding-right:50px;
-        
     }
 }
 
 #imgJesopazz{
-    padding:0;
     @media screen and(min-width:$tablet-landscape){
-        padding-left:50px;
-        
+        padding-left:50px; 
     }
 }
 
 #imgNapule{
-    padding:0;
     @media screen and(min-width:$tablet-landscape){
         padding-right:50px;
-        
     }
+
 }
 
 
@@ -71,21 +66,28 @@
     font-family: 'Montserrat', sans-serif;
     display: block;
     text-align: center;
-    width: 5rem;
+    max-width: 5rem;
     border: 3px solid $cta-yellow;
     padding: 12px 24px;
     color: $cta-yellow; 
     background-color: white;
-
+  margin-top: 20px;
     transition: all .5s;
-
+    margin-top: 20px;
+    @media screen and (max-width: $mobile){
+        max-width: 100%;  
+    }
 }
+
+
 
 .call-to-action:hover{
     border: 3px solid $cta-yellow;
     background-color: $cta-yellow;
     color:#fff;
 }
+
+
 
 .stanze{
     justify-content:space-between;

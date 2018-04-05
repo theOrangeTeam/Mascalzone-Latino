@@ -174,12 +174,13 @@ span.detail-price {
             }
     }
     p.call-detail-2 {
-        border: thin solid $blue;
-        background-color: $blue;
+        border: thin solid $cta-yellow;
+        background-color: $cta-yellow;
         color: #fff;
         padding: 0.5rem 1rem;
         margin-top: 0.5rem;
         height: 1.5rem;
+
         @media screen and (min-width:$tablet-landscape){
             width: 100%;
             }
@@ -267,7 +268,17 @@ img.cards {
 img.social {
     height: 3rem;
     margin-top: .5rem;
+  
+
 }
+a svg:hover {
+    .st1{
+
+    fill:$cta-yellow;
+    }
+    
+}
+
 
 p.copyright {
     text-align: center;
