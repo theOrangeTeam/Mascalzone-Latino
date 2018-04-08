@@ -1,0 +1,55 @@
+/*Chi Siamo Styles*/
+
+.img-history {
+    max-width: 100%;
+    margin-top: 24px;
+}
+
+.histoy {
+    margin: -2.6rem 8rem 2.6rem 20rem;
+}
+
+.name {
+    margin-left: 2.8rem;
+    margin-top: 2.6rem;
+}
+
+.family {
+    margin: -8rem 8rem 2.6rem 20rem;
+}
+
+p.end-history {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: rgba(0, 0, 0, .87);
+}
+
+p.end-history-2 {
+    text-align: center;
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+}
+
+
+.chi_siamo_space{
+        justify-content: space-between;
+        margin: 60px auto;
+        align-items: center;
+
+        p {
+            font-size:1rem;
+            @extend .montserrat;
+            color:$gray;
+        }
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+ 
+
+    h2{
+        color:$black-text;
+    }

@@ -1,0 +1,173 @@
+.color {
+    background-color: $rose;
+}
+
+
+    
+    #pad{
+        padding: 0
+    }
+
+
+.histoy {
+    margin-top: 18px;
+}
+
+.title-rooms {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.noMargi{
+    margin: 0;
+}
+span.title-pazzo {
+    margin: 0;
+    justify-content: flex-end;
+}
+
+span.title-pazzo {
+    margin: 0;
+    justify-content: flex-start;
+}
+
+article {
+    div p {
+        color: $black-text;
+        font-weight: 100;
+        @extend .montserrat;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li {
+        @extend .montserrat;
+        color: $gray;
+        font-weight: 100;
+    }
+}
+
+h2 {
+    font-weight: 300;
+    color: $black-text;
+}
+
+h3 {
+    font-weight: 300;
+    color: $black-text;
+}
+
+.icona {
+    width: 30px;
+    @media only screen and (max-width: $mobile) {
+        justify-content: flex-start;
+    }
+}
+
+hr {
+    max-width: 100%;
+}
+
+.margi {
+    margin-bottom: 30px;
+}
+
+.margi2 {
+    @media only screen and (max-width: $desktop) {
+        margin-bottom: 30px;
+    }
+}
+
+img.service {
+    display: block;
+    width: 5rem;
+    margin: -0.5rem 8rem 2.6rem 20rem;
+}
+
+.noWrap {
+    flex-wrap: nowrap;
+}
+
+.icons-room {
+    width: auto;
+    height: 3.2rem;
+    margin: 15px 30px;
+    @media only screen and (max-width: $mobile) {
+        margin: 15px;
+    }
+}
+
+#spaceBet {
+    justify-content: space-between;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+    @media only screen and (max-width: 769px) {
+        justify-content: flex-start;
+    }
+    @media only screen and (max-width:$mobile) {
+        justify-content: flex-start;
+    }
+}
+
+img.check-list {
+    height: 14px;
+    margin: 2rem 1.2rem 0 0;
+}
+
+.col.s6 {
+    @media screen and (max-width: 600px) {
+        flex-basis: 50%!important;
+    }
+}
+
+article figure {
+    margin-bottom: 15px;
+    img {
+        height: 65px;
+    }
+}
+
+.flessibile {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 34px;
+    @media screen and (max-width: $tablet) {
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+.flessibile2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    @media screen and (max-width: $tablet) {
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+.hide {
+    display: none;
+    @media screen and (max-width: $mobile) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.hide2 {
+    display: inline;
+    @media screen and (max-width: $mobile) {
+        display:none;
+    }
+}
+
+.absolute {
+    position: absolute;
+    z-index: 99;
+    margin-top: 17px;
+    @media screen and (max-width: $tablet) {
+        position: relative;
+    }
+}

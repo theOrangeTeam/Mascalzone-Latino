@@ -1,0 +1,529 @@
+/* SCSS Document */
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+html {
+    font-size: 15px;
+    font-family: 'Georigia', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1,
+h4,
+p {
+    @extend .montserrat;
+}
+
+h2 {
+    font-family: 'Georigia', serif;
+    color:$black-text;
+    font-weight: 100;
+}
+
+p{
+    font-weight: 100;
+}
+
+.title {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4rem;
+    color:$black-text;
+    margin-right: 16px;
+}
+
+h3 {
+    color: $black-text;
+    display: inline;
+}
+
+header h2{
+    font-weight: 300;
+    color:$black-text;
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+}
+
+
+#header {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
+    background: #fffbf5;
+    height: 60px;
+    color: #585858;
+    padding: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    }
+
+}
+
+#header ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    span {
+        color: $blue;
+    }
+    .number {
+        background-color: $blue;
+        background-size: 8rem 4rem;
+        padding: .25rem .5rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    li {
+        line-height: 1.5;
+    }
+    &:first-child {
+        justify-content: flex-start;
+        @extend .montserrat;
+        span {
+            font-weight: 500;
+        }
+    }
+    &:nth-child(2) {
+        justify-content: flex-end;
+        @extend .ubuntu;
+        li {
+            margin-left: 24px;
+        }
+        span {
+            font-weight: 300;
+        }
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    flex: 1 0 auto;
+    color: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    max-width: 15rem;
+}
+
+
+
+.home-contatti{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin: 0 22px;
+}
+
+
+
+
+span.detail-price {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+.s-call {
+    background: url("../images/hero.jpg") center/cover no-repeat;
+    padding:60px 0 ;
+    display: flex;
+    align-items: center;
+  
+    .call {
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+    }
+   
+    .call-detail {
+
+        border: thin solid #fff;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        margin-top: 0.5rem;
+        height: 1.5rem;
+
+        transition: .5s all;
+
+        @media screen and (min-width:$tablet-landscape){
+            width: 100%;
+            }
+
+        }
+
+    @media screen and (min-width:$desktop){    
+    .call-detail:hover{
+
+        color:#fff;
+        border: thin solid $cta-yellow;
+        background-color: $cta-yellow;
+
+    }
+}
+  
+
+
+
+}
+
+.number {
+    justify-content: center;
+    color: white;
+}
+
+
+
+.button-top {
+	position: absolute;
+	right: 64px;
+    img {
+        height: 3rem;
+        margin-top: -1.5rem;
+    }
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #000540;
+    color: #fff;
+    width: 100%;
+
+    .payments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .row{
+        justify-content: space-between;
+        padding:40px 0;
+
+        .follow{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+
+
+        i{
+            font-size:30px;
+            margin:0 10px;
+            color: #fff;
+            transition: 0.5s all;
+        }
+
+        i:hover{
+            color:$cta-yellow;
+        }
+
+
+
+
+           
+
+            @media screen and (max-width:$mobile-landscape){
+                align-items: center;
+               margin-top: 40px;
+
+               @media screen and (max-width:$mobile){
+                align-items: flex-start;
+            }
+
+            }
+
+            .contact{
+                width:144px;
+            }
+
+        }
+
+    }
+}
+
+.site-map {
+    color: #fff;
+    line-height: 2;
+}
+
+img.cards {
+    height: 3rem;
+
+    @media screen and (max-width:$tablet){
+        height:2rem;
+        
+    }
+
+    margin-top: 1.5rem
+}
+
+img.social {
+    height: 3rem;
+    margin-top: .5rem;
+  
+
+}
+a svg:hover {
+    .st1{
+
+    fill:$cta-yellow;
+    }
+    
+}
+
+
+p.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 60px 0;
+}
+
+
+
+
+
+.brand {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 68px;
+}
+
+.nav {
+
+    justify-content: space-between;
+    margin: 30px 0 ;
+}
+
+nav.navbar {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
+        
+    
+    background: #fff;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        align-items: center;
+        transition: all .3s ease;
+        a {
+            transition: inherit;
+        }
+    }
+    ul.menu>li {
+        font-size: 16px;
+        padding: 0 16px;
+        a {
+            color: $gray;
+            &:hover,
+            &.active {
+                color: $blue;
+            }
+        }
+    }
+    ul.language {
+        max-width: 124px;
+        padding: 8px;
+        margin-left: 56px;
+        border: solid thin $gray-border;
+        border-radius: 30px;
+        li {
+            padding: 0 4px;
+        }
+    }   
+}
+}
+
+
+/*-------SIDENAV-------*/
+
+
+ul.sideNav {
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+    transition: all .3s ease;
+
+    
+
+    >li {
+        
+        >a {
+            align-items: center;
+            
+            font-size: 1.2rem;
+            @extend .montserrat;
+            font-weight: 100;
+            text-align: center;
+            max-width: 100%;
+        }
+        display: flex;
+     
+        flex-wrap: wrap;
+        padding: .5rem 0;
+        margin: 16px 0;
+     
+        i {
+            font-weight: inherit;
+        }
+        ul {
+            max-height: 0;
+            overflow-y: hidden;
+            flex: 0 1 100%;
+            transition: max-height .3s ease-out;
+            animation: slide-out .3s ease-in;
+
+         
+
+            li {
+                padding: .5rem 0;
+                margin: 16px 0 0;
+            }
+            &.open {
+                animation: slide-in .3s ease-out;
+                max-height: 14rem;
+                overflow-y: visible;
+            }
+        }
+    }
+    transition: all .3s ease;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    backface-visibility: hidden;
+    
+    flex-direction: column;
+    transform: translateX(105%);
+    width: 80%;
+    
+    color: white;
+
+    a{
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width:$mobile-landscape){
+        width:35%;
+    }
+
+    &.open {
+        transform: translateX(0);
+    }
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 997;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+}
+
+#menu {
+    align-self: center;
+    align-self: center;
+    flex-basis: 10%;
+    text-align: right;
+
+    @media screen and (min-width:$desktop){
+        display: none;
+    }
+}
+
+
+
+i.dropdown {
+    color: #6A6A6A;
+    margin-top:40px;
+    font-size: 30px;
+}
+
+#close{
+    font-size: 31px;
+    color: #6A6A6A;
+    margin: 40px 0 ;
+    
+}
+
+li.close{
+
+    display: flex;
+    justify-content: center;
+}
+
+#home{
+    margin-top:64px;
+}
+
+#sidebrand{
+    margin-top: 20px;
+}
+
+
