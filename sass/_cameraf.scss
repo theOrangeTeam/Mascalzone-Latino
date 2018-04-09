@@ -148,20 +148,7 @@ article figure {
     }
 }
 
-.hide {
-    display: none;
-    @media screen and (max-width: $mobile) {
-        display: flex;
-        justify-content: center;
-    }
-}
 
-.hide2 {
-    display: inline;
-    @media screen and (max-width: $mobile) {
-        display:none;
-    }
-}
 
 .absolute {
     position: absolute;
