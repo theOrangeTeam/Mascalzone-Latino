@@ -59,12 +59,3 @@
 }
 
 
-.slide-mobile{
-    width: 100%;
-    display: none;
-
-    @media screen and (max-width:$mobile) {
-        display: block;
-        
-    }
-}

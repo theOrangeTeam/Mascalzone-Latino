@@ -88,7 +88,7 @@ input[type=submit] {
     transition: 0.5s all;
 
     @media screen  and (max-width:$mobile) {
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -108,7 +108,7 @@ input[type=submit]:hover{
 
 .btn {
     justify-content: center;
-    margin:20px;
+    margin:20px 0;
     @extend .row;
     
 }
@@ -133,4 +133,9 @@ form{
 .scrivici{
     text-align: center;
     margin: 80px 0 130px;
+}
+.row {
+    .col{
+        padding: 0 .5rem; 
+    }
 }
