@@ -33,6 +33,16 @@
     p{
         color:$gray;
     }
+
+    br{
+        display: none;
+    
+    @media screen and (max-width:$mobile) {
+
+        display: inline-block;
+        
+    }
+    }
 }
 
 
@@ -58,17 +68,26 @@
 }
 
 
-
+.none{
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}
 .pino-e-maradona{
     justify-content: space-around;
     display: flex;
     flex-flow: column;
+    
 }
 
 .icons {
     width: auto;
     height: 2.3rem;
     margin: 12px;
+    @media screen and (max-width: $mobile){
+        height: 3rem;
+    }
+
 }
 
 .call-to-action {

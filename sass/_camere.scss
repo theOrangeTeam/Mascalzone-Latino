@@ -60,6 +60,9 @@ p.end-history {
     font-size: 6rem;
     text-align: center;
     color: rgba(0, 0, 0, .87);
+    @media only screen and (max-width:$mobile) {
+        font-size: 5rem;
+    }
 }
 
 p.end-history-2 {

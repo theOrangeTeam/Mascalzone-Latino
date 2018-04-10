@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
-		crossorigin="anonymous">
+	    crossorigin="anonymous">
 </head>
 
 <body itemscope itemtype="http://schema.org/HotelRoom http://schema.org/Hotel http://schema.org/PriceSpecification">
@@ -34,9 +34,10 @@
 			<li>
 				<span itemprop="telephone">+39 3388122870</span>
 			</li>
-			<li  itemprop="telephone">+39 081 18276954</li>
+			<li itemprop="telephone">+39 081 18276954</li>
 		</ul>
 	</section>
+	
 	<div class="container">
 		<div class="row nav">
 			<a class="row" href="index.html">
@@ -111,19 +112,19 @@
 	</ul>
 
 	<section class="slider">
-		<header>
+		<header class="overlay-slider">
 			<h1>IL B&B D’ECCELLENZA</h1>
 			<p>Lasciati ispirare dal golfo più bello del mondo e non lo dimenticherai più perché Napoli non è semplicemente una città
 				ma un sentimento.</p>
 		</header>
 		<figure>
-			<img src="images/slider/slider_1.jpg" alt="bb mascalzone latino" itemprop="name">
+			<img src="images/slider/napule/1.JPG" alt="bb mascalzone latino" itemprop="name">
 		</figure>
 		<figure>
-			<img src="images/slider/slider_2.jpg" alt="bb mascalzone latino"itemprop="name">
+			<img src="images/slider/napule/2.JPG" alt="bb mascalzone latino" itemprop="name">
 		</figure>
 		<figure>
-			<img src="images/slider/slider_3.jpg" alt="bb mascalzone latino"itemprop="name">
+			<img src="images/slider/napule/3.JPG" alt="bb mascalzone latino" itemprop="name">
 		</figure>
 		<ol>
 			<li></li>
@@ -133,14 +134,14 @@
 	</section>
 
 	<section class="slide-mobile">
-		<img src="images/camere/napule.jpg" alt="">
+		<img src="images/slider/napule/2.JPG" alt="">
 	</section>
 
 	<div class="container">
 
 		<div class="title-rooms">
 			<span class="title-pazzo" itemprop="name">Napule è</span>
-			
+
 			<br>
 			<h3>(camera doppia uso quadrupla)</h3>
 		</div>
@@ -158,10 +159,11 @@
 		<hr>
 		<article id="spaceBet" class=" row">
 			<header class="col s12 m2 l2">
-				<h2 class="noMargi" >Descrizione</h2>
+				<h2 class="noMargi">Descrizione</h2>
 			</header>
-			<p class="col s12 m9 l9 "itemprop="description">Napoli è una città conosciuta in tutto il mondo per la sua bellezza, per il calore del popolo ma anche per lo stile di vita dei napoletani avvolte un po distratti, un po “accomodanti”.
-				La camera affaccia proprio sulla via in cui è nato l’artista con lo scopo di far sentire parte integrante della città i nostri turisti.</p>
+			<p class="col s12 m9 l9 " itemprop="description">Napoli è una città conosciuta in tutto il mondo per la sua bellezza, per il calore del popolo ma anche per lo stile di
+				vita dei napoletani avvolte un po distratti, un po “accomodanti”. La camera affaccia proprio sulla via in cui è nato
+				l’artista con lo scopo di far sentire parte integrante della città i nostri turisti.</p>
 		</article>
 		<article class="histoy row flexEnd">
 			<header class="col s12 m9 l9 histoy">
@@ -226,56 +228,58 @@
 			<header class="col m2 l2 absolute ">
 				<h2>Avvertenze</h2>
 			</header>
-			<div class="flessibile2">
-				<figure class="col m1 l1  ">
-					<img src="svg/SVG/clock.svg" alt="" itemprop="amenityFeature">
-				</figure>
-				<div class=" col m8 l8">
+			<div id="pad" class="col l12">
+				<div class="flessibile2">
+					<figure class="col m1 l1  ">
+						<img src="svg/SVG/clock.svg" alt="" itemprop="amenityFeature">
+					</figure>
+					<div class=" col m8 l8">
 
-					<div>
+						<div>
 
-						<h3>Check-in and check-out</h3>
+							<h3>Check-in and check-out</h3>
 
-						<p>Cerchiamo sempre di offrire il massimo dell’ospitalità e dell’efficienza per questo ci farebbe piacere sapere sempre
-							l’orario del vostro arrivo presso la nostra struttura.</p>
-						<p  itemprop="checkinTime"> Di solito il check- in è aperto dalle 9,00 alle 18,00 ma se comunicato in tempo è possibile accordarci su tutte le
-							vostre richieste.
-						</p>
-						<p  itemprop="checkinTime">Il check-out invece è entro le ore 10,00</p>
+							<p>Cerchiamo sempre di offrire il massimo dell’ospitalità e dell’efficienza per questo ci farebbe piacere sapere sempre
+								l’orario del vostro arrivo presso la nostra struttura.</p>
+							<p itemprop="checkinTime"> Di solito il check- in è aperto dalle 9,00 alle 18,00 ma se comunicato in tempo è possibile accordarci su tutte le
+								vostre richieste.
+							</p>
+							<p itemprop="checkinTime">Il check-out invece è entro le ore 10,00</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="flessibile">
-				<figure class="col m1 l1  ">
-					<img src="svg/SVG/info.svg" alt="" itemprop="amenityFeature">
-				</figure>
-				<div class=" col m8 l8">
+				<div class="flessibile">
+					<figure class="col m1 l1  ">
+						<img src="svg/SVG/info.svg" alt="" itemprop="amenityFeature">
+					</figure>
+					<div class=" col m8 l8">
 
-					<h3>Cancellation</h3>
+						<h3>Cancellation</h3>
 
-					<p>Una volta effettuata la prenotazione presso la nostra struttura, il termine entro il quale poter cancellare la vostra
-						prenotazione è di 7 giorni prima del vostro arrivo.</p>
+						<p>Una volta effettuata la prenotazione presso la nostra struttura, il termine entro il quale poter cancellare la vostra
+							prenotazione è di 7 giorni prima del vostro arrivo.</p>
+					</div>
+
+				</div>
+				<div class="flessibile">
+					<figure class="col m1 l1  ">
+						<img src="svg/SVG/card.svg" alt="" itemprop="amenityFeature">
+					</figure>
+
+					<div class=" col m8 l8">
+
+						<h3>Pagamento</h3>
+
+						<p itemprop="paymentiAccepted">Se desiderate riservare una camera per i futuri pernottamenti è possibile lasciare un acconto e saldare al momento
+							dell’arrivo. È possibile pagare anche con carta di credito o bancomat.</p>
+					</div>
 				</div>
 
+
 			</div>
-
-			<div class="flessibile">
-				<figure class="col m1 l1  ">
-					<img src="svg/SVG/card.svg" alt="" itemprop="amenityFeature">
-				</figure>
-
-				<div class=" col m8 l8">
-
-					<h3>Pagamento</h3>
-
-					<p  itemprop="paymentiAccepted">Se desiderate riservare una camera per i futuri pernottamenti è possibile lasciare un acconto e saldare al momento dell’arrivo.
-						È possibile pagare anche con carta di credito o bancomat.</p>
-				</div>
-			</div>
-
-
 		</article>
+
 		<p class="end-history">Ti aspettiamo</p>
 
 	</div>
@@ -287,7 +291,7 @@
 			<div class="row number">
 				<div class="col s12 m4 ml1 l2 home-contatti ">
 					<p>Maria</p>
-					<a href="tel:+393337266933"> 
+					<a href="tel:+393337266933">
 						<p class="call-detail" itemprop="telephone">+39&nbsp;3337266933</p>
 					</a>
 				</div>
@@ -298,17 +302,18 @@
 						<p class="call-detail " itemprop="telephone">+39&nbsp;3348647436</p>
 					</a>
 				</div>
-				
+
 				<div class="col s12 m4 ml1 l2 home-contatti">
 					<p>Pietro</p>
-					<a href="tel:+393388122870">	<p class="call-detail " itemprop="telephone">+39&nbsp;3388122870</p>
+					<a href="tel:+393388122870">
+						<p class="call-detail " itemprop="telephone">+39&nbsp;3388122870</p>
 					</a>
 				</div>
-				
+
 				<div class="col s12 m4 ml1 l2 home-contatti">
 					<p>Reception</p>
 					<a href="tel:+3908118276954">
-					<p class="call-detail" itemprop="telephone">+39&nbsp;08118276954</p>
+						<p class="call-detail" itemprop="telephone">+39&nbsp;08118276954</p>
 					</a>
 				</div>
 			</div>
@@ -349,11 +354,11 @@
 							<a href="facebook.com">
 								<i id="facebook" class="fab fa-facebook-f"></i>
 							</a>
-							
+
 							<a href="instagram.com">
 								<i class="fab fa-instagram"></i>
 							</a>
-							
+
 							<a href=" https://api.whatsapp.com/send?phone=393293333333">
 								<i class="fab fa-whatsapp"></i>
 
