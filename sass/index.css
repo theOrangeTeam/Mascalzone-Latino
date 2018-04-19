@@ -783,16 +783,20 @@ li.close {
   }
   .slider header {
     position: absolute;
-    padding: 0 10%;
+    padding: 15px 10%;
     top: 236px;
     color: #fff;
+    width: 60%;
+    left: 10%;
   }
   .slider header h1, .slider header p {
     text-align: center;
+    margin-bottom: 15px;
   }
   .slider header p {
-    font-size: 24px;
+    font-size: 18px;
     color: white;
+    margin: 0 70px 30px 70px;
   }
   .slider figure {
     height: 500px;
