@@ -159,27 +159,27 @@
 			<p>Per maggiori informazioni non esitare a contattarci</p>
 
 			<div class="container">
-				<form>
+				<form action="mail.php" method="post">
 					<div class="row">
 
 						<div class="col m12 l6">
 
-							<input type="text" id="fname" name="firstname" placeholder="Nome">
+							<input type="text" id="fname" name="name" placeholder="Nome">
 
-							<input type="text" id="lname" name="lastname" placeholder="Cognome">
+							<input type="text" id="lname" name="last_name" placeholder="Cognome">
 
 							<input type="email" id="email" name="email" placeholder="Email">
 
 						</div>
 
 						<div class="col s12 m12 l6">
-							<textarea id="richiesta" placeholder="Richiesta"></textarea>
+							<textarea id="richiesta" name="comments" placeholder="Richiesta"></textarea>
 						</div>
 
 					</div>
 
 					<div class="row btn">
-						<input class="call-to-action" type="submit" value="PRENOTA">
+						<input class="call-to-action" type="submit" value="PRENOTA" >
 					</div>
 				</form>
 			</div>
